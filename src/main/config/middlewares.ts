@@ -1,11 +1,9 @@
 
 import { Express } from 'express'
 import { bodyParser } from '../middlewares/body-parser'
+import { cors } from '../middlewares/cors'
 
-interface MyExpress extends Express {
-  use: any
-}
-
-export default (app: MyExpress): void => {
+export default (app: Express): void => {
   app.use(bodyParser)
+  app.use(cors)
 }

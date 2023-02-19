@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest --passWithNoTests --silent --noStackTrace --runInBand --no-cache",
+    "test": "jest --passWithNoTests --silent --noStackTrace --runInBand",
     "test:verbose": "jest --passWithNoTests --runInBand",
     "test:unit": "npm test -- --watch -c jest-unit-config.js",
     "test:integration": "npm test -- --watch -c jest-integration-config.js",
@@ -15,29 +15,29 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@shelf/jest-mongodb": "^4.1.6",
-    "@types/bcrypt": "^5.0.0",
-    "@types/jest": "^24.9.1",
-    "@types/mongodb": "^4.0.7",
-    "@types/node": "^18.11.19",
-    "@types/validator": "^13.7.12",
-    "@typescript-eslint/eslint-plugin": "^2.34.0",
+    "@shelf/jest-mongodb": "^1.1.3",
+    "@types/bcrypt": "^3.0.0",
+    "@types/jest": "^24.0.25",
+    "@types/mongodb": "^3.3.14",
+    "@types/node": "^13.1.6",
+    "@types/validator": "^12.0.1",
+    "@typescript-eslint/eslint-plugin": "^2.16.0",
     "eslint": "^6.8.0",
     "eslint-config-standard-with-typescript": "^11.0.1",
-    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-import": "^2.20.0",
     "eslint-plugin-node": "^9.2.0",
-    "eslint-plugin-promise": "^4.3.1",
-    "eslint-plugin-standard": "^4.1.0",
-    "git-commit-msg-linter": "^4.5.0",
-    "husky": "^4.3.8",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1",
+    "git-commit-msg-linter": "^2.3.11",
+    "husky": "^4.0.6",
     "jest": "^24.9.0",
     "lint-staged": "^9.5.0",
     "ts-jest": "^24.3.0",
-    "typescript": "^4.9.5"
+    "typescript": "^3.7.4"
   },
   "dependencies": {
-    "bcrypt": "^5.1.0",
-    "mongodb": "^5.0.1",
-    "validator": "^13.9.0"
+    "bcrypt": "^3.0.7",
+    "mongodb": "^3.5.1",
+    "validator": "^12.1.0"
   }
 }

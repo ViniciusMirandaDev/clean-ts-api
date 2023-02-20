@@ -28,8 +28,6 @@ export class LoginController implements Controller {
 
       const { email, password } = httpRequest.body
       await this.authentication.auth(email, password)
-
-      return new Promise(resolve => resolve(null))
     } catch (error) {
       return serverError(error)
     }

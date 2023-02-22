@@ -1,6 +1,6 @@
 {
   "name": "clean-node-api",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "NodeJs Rest API using TDD, Clean Architecture and Typescript",
   "scripts": {
     "start": "sucrase-node src/main/server.ts",
@@ -11,7 +11,7 @@
     "test:staged": "npm test -- --findRelatedTests",
     "test:ci": "npm test -- --coverage"
   },
-  "author": "Rodrigo Manguinho",
+  "author": "Vinícius Miranda",
   "license": "ISC",
   "devDependencies": {
     "@shelf/jest-mongodb": "^1.1.3",
